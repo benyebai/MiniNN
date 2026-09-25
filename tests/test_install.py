@@ -1,6 +1,6 @@
 import unittest
 
-from mininn import Tensor
+from tensorgrad import Tensor
 
 
 class TestInstallation(unittest.TestCase):

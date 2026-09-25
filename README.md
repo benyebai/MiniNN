@@ -33,7 +33,7 @@ On Windows PowerShell, activate the environment with:
 Verify the installation:
 
 ```bash
-python -c "from mininn import Tensor; print(Tensor([1, 2, 3]))"
+python -c "from tensorgrad import Tensor; print(Tensor([1, 2, 3]))"
 python -m unittest discover -s tests
 ```
 
