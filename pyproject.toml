@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benyebai-mininn"
+version = "0.1.0"
+description = "A tiny neural-network library built from first principles on TensorGrad."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Benjamin Bai" }]
+dependencies = [
+  "benyebai-tensorgrad @ git+https://github.com/benyebai/TensorGrad.git@main",
+]
+
+[project.urls]
+Repository = "https://github.com/benyebai/MiniNN"
+Issues = "https://github.com/benyebai/MiniNN/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
