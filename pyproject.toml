@@ -20,3 +20,8 @@ Issues = "https://github.com/benyebai/MiniNN/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv"
+extraPaths = ["src"]

@@ -37,6 +37,10 @@ python -c "from mininn import Tensor; print(Tensor([1, 2, 3]))"
 python -m unittest discover -s tests
 ```
 
+If your editor reports that `mininn` cannot be resolved, select
+`.venv/bin/python` as the workspace interpreter and restart its language
+server. The repository's basedpyright configuration uses that environment.
+
 ## Development roadmap
 
 1. Parameter and module contracts
