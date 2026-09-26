@@ -15,20 +15,18 @@ framework.
 
 ## Setup
 
-```bash
+````bash
 git clone https://github.com/benyebai/MiniNN.git
 cd MiniNN
-python -m venv .venv
+
+uv sync
 source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -e .
-```
 
 On Windows PowerShell, activate the environment with:
 
 ```powershell
 .venv\Scripts\Activate.ps1
-```
+````
 
 Verify the installation:
 
