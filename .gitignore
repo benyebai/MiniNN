@@ -11,3 +11,5 @@ build/
 dist/
 .DS_Store
 uv.lock
+data
+artifacts
