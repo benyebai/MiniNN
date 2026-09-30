@@ -35,19 +35,6 @@ python -c "from tensorgrad import Tensor; print(Tensor([1, 2, 3]))"
 python -m unittest discover -s tests
 ```
 
-If your editor reports that `mininn` cannot be resolved, select
-`.venv/bin/python` as the workspace interpreter and restart its language
-server. The repository's basedpyright configuration uses that environment.
-
-## Development roadmap
-
-1. Parameter and module contracts
-2. Linear layers and activations
-3. Loss functions and initialization
-4. Adam and gradient clipping
-5. Checkpoint save/load
-6. An MLP that reliably learns XOR
-
 ## License
 
 MIT
